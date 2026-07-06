@@ -1,1 +1,120 @@
-
+/* General Styling */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+/* Resume Container */
+.resume{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+}
+/* Header */
+header{
+    text-align: center;
+}
+header h1{
+    color: darkblue;
+    margin-bottom: 10px;
+}
+.contact{
+    color: dimgray;
+    margin-bottom: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+}
+.contact a:hover{
+    color: crimson;
+}
+/* Horizontal Line */
+hr{
+    border: 1px solid lightgray;
+    margin: 25px 0;
+}
+/* Section */
+section{
+    margin-bottom: 30px;
+}
+section h2{
+    color: darkgreen;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 5px;
+}
+/* Paragraph */
+p{
+    line-height: 1.7;
+    text-align: justify;
+}
+/* Lists */
+ul{
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 8px;
+}
+/* Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+table th{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+table td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+table tr:hover{
+    background-color: #dbeeff;
+}
+/* Links */
+a{
+    color: royalblue;
+    transition: 0.3s;
+}
+a:hover{
+    color: crimson;
+}
+/* Strong Text */
+strong{
+    color: black;
+}
+/* Footer */
+footer{
+    text-align: right;
+    margin-top: 40px;
+    border-top: 2px solid gray;
+    padding-top: 20px;
+}
+footer h3{
+    color: navy;
+}
+/* Responsive Design */
+@media (max-width:768px){
+.resume{
+    width:95%;
+    padding:20px;
+}
+header h1{
+    font-size:28px;
+}
+table{
+    font-size:14px;
+}
+}
